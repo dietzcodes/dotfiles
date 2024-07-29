@@ -1,0 +1,5 @@
+require("core")
+vim.cmd("highlight Normal guibg=none")
+vim.cmd("highlight NonText guibg=none")
+vim.cmd("set number")
+vim.cmd("set relativenumber")

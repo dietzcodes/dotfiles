@@ -1,0 +1,51 @@
+window#waybar {
+	background-color: rgba(0, 0, 0, 0);
+	font-family: Space Mono Nerd Font;
+	font-size: 13px;	
+}
+.modules-left {
+	background-color: rgba(29, 27, 26, 1); 
+	border-style: solid;
+	border-color: rgba(143, 45, 16, 1);
+	border-radius: 7px;
+	border-width: 5px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	box-shadow: -5px 5px 2px black;
+}
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#power-profiles-daemon,
+#mpd {
+    	padding: 0 10px;
+    	color: #8f2d10;
+}
+#workspaces button {
+	color: #8f2d10;
+	background-color: #1d1b1a;
+	border-radius: 0px;
+}
+#workspaces button.active {
+	color: #1d1b1a;
+	background-color: #8f2d10;
+	border-radius: 0px;
+}
+#workspaces button:hover {
+    background: #1f1d1c;
+    border-color: #1f1d1c;
+}
+
+

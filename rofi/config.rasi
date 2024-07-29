@@ -1,0 +1,74 @@
+configuration {
+	font: "Space Mono Nerd Font 10";
+}
+window {
+	background-image: url("/home/carter/Wallpapers/background.png", width);
+	border-color: transparent;
+	border-radius: 5;
+	anchor: west;
+	location: west;
+	margin: 50px;
+}
+element-text {
+
+	/*text-color: #8f2d10;
+	background-color: #1d1b1a;
+	border-color: #1d1b1a;*/
+	border-radius: 5;
+	margin: 2px;
+}
+element {
+	border-radius: 5;
+}
+element.normal.normal {
+	background-color: #1d1b1a;
+	text-color: #8f2d10;
+}
+element.alternate.normal {
+	background-color: #1d1b1a;
+	text-color: #8f2d10;
+}
+element.normal.active {
+	background-color: #8f2d10;
+	text-color: #1d1b1a;
+}
+element.alternate.active {
+	background-color: #8f2d10;
+	text-color: #1d1b1a;
+}
+
+element.normal.urgent {
+    background-color: #1d1b1a;
+    text-color: #8f2d10;
+}
+element.alternate.urgent {
+    background-color: #1d1b1a;
+    text-color: #8f2d10;
+}
+
+element.selected.normal {
+	background-color: #8f2d10;
+	text-color: #1d1b1a;
+}
+
+element.selected.active {
+	background-color: #8f2d10;
+	text-color: #1d1b1a;
+}
+
+element.selected.urgent {
+	background-color: #8f2d10;
+	text-color: #1d1b1a;
+}
+
+mainbox {
+	background-color: transparent;
+	border-color:transparent;
+}
+listview {
+	border-color: transparent;
+	background-color: transparent;
+	columns: 2;
+	lines: 8;
+	scrollbar: false;
+}
