@@ -1,7 +1,9 @@
 format = """
 [](#8F2D10)\
 $directory\
-[](fg:#8F2D10)\
+[ ](fg:#8F2D10)\
+"""
+right_format = """
 $git_branch\
 $git_status\
 $nodejs\
@@ -56,4 +58,3 @@ disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "bg:#1D1B1A"
 format = '[[  $time ](fg:#8F2D10 bg:#1D1B1A)]($style)'
-
